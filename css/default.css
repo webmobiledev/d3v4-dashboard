@@ -1,0 +1,83 @@
+.card-body {
+    overflow-x: auto;
+}
+.customBarMonth {
+    font-size: 12px;
+}
+.customBarArea {
+    fill: lightsteelblue;
+}
+.customBarLine {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+div.customBarTooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: 70px;					
+    height: 30px;					
+    padding: 7px 10px;				
+    font: 16px sans-serif;
+    color: white;
+    background: rgba(0,0,0,0.8);	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;			
+}
+md-input-container {
+    display: none;
+}
+h4 {
+    color: #5f5f5f;
+    margin-bottom: 0;
+}
+h5 span {
+    color: #c00;
+    font-weight: bold;
+}
+md-slider.md-default-theme .md-track.md-track-fill, md-slider .md-track.md-track-fill {
+    background-color: darkgreen;
+}
+md-slider.md-default-theme .md-thumb:after, md-slider .md-thumb:after {
+    background-color: darkgreen;
+    border-color: darkgreen;
+}
+md-slider.md-default-theme .md-focus-ring, md-slider .md-focus-ring {
+    background-color: darkgreen;
+}
+.summary h1, .summary p, .summary h3 {
+    margin: 0;
+}
+.summary h1 {
+    font-size: 50px;
+}
+.summary i {
+    font-size: 20px;
+}
+.active {
+    color: #4caf50;
+}
+.social-badge {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid green;
+    font-size: 14px;
+    line-height: 20px;
+    color: green;
+}
+.customLineGrid line {
+    stroke: grey;
+    stroke-opacity: 0.6;
+    shape-rendering: crispEdges
+}
+.customLineGrid path {
+    stroke-width: 0;
+}
+.btn-zoom {
+    width: 30px;
+    height: 30px;
+    line-height: 0px;
+    font-size: 20px;
+}
